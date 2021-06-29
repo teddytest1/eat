@@ -1,0 +1,158 @@
+body{position:absolute;top:0px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.button{
+  display: inline-block;
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:#d69478;
+  color:#411d1d;
+  font-family:微軟正黑體;
+  font-weight:bold;
+  font-size:35px;
+  
+}
+.button1{
+  display: inline-block;
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:#411d1d;
+  color:white;
+  font-family:微軟正黑體;
+  font-weight:bold;
+  font-size:35px;
+}
+.button:hover{
+  background-color: #411d1d;
+  color:white;
+}
+.nav_ul{
+  background-color:#d69478;
+  
+}
+.content{
+  max-width:100%;
+  margin-top:0px;
+}
+.g1{
+  
+ width: 100%;
+height: 50px;
+background: #a6b3a7;
+}
+#menu{
+   position: fixed;
+  top: 0;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  z-index:5;
+}
+li::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .3em;
+    vertical-align: middle;
+    content: "";
+    border-top: 26px solid;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+<style type="text/css">
+#P1{
+    position:absolute;
+    top:00px;
+    left:0px;
+    z-index:-1;
+}
+#P2{
+    position:absolute;
+    top:180px;
+    left:0px;
+    z-index:0;
+}
+#P3{
+    position:absolute;
+    top:520px;
+    left:840px;
+    z-index:0;
+}
+#P4{
+    position:absolute;
+    top:180px;
+    left:800px;
+    z-index:0;
+}
+#P5{
+    position:absolute;
+    top:403px;
+    left:80px;
+    z-index:3;
+}
+#P6{
+    position:absolute;
+    top:195px;
+    left:400px;
+    z-index:0;
+}
+#P7{
+    position:absolute;
+    top:180px;
+    right:0px;
+    z-index:0;
+}
+#P8{
+    position:absolute;
+    top:520px;
+    right:840px;
+    z-index:0;
+}
+#P9{
+    position:absolute;
+    top:180px;
+    right:800px;
+    z-index:0;
+}
+#P10{
+    position:absolute;
+    top:398px;
+    right:135px;
+    z-index:3;
+}
+#P11{
+    position:absolute;
+    top:195px;
+    right:40px;
+    z-index:0;
+}
+#P12{
+    position:absolute;
+    top:399px;
+    left:120px;
+    z-index:3;
+}
+#P13{
+    position:absolute;
+    top:398px;
+    left:120px;
+    z-index:3;
+}
+.font1{
+  font-size:65px;
+  font-family:標楷體;
+}
+.font2{
+  font-size:25px;
+  font-family:標楷體;
+}
+.font3{
+  font-size:26px;
+  font-family:標楷體;
+}
+
+</style>
